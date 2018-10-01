@@ -78,31 +78,12 @@ public class App
 	
 	public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        System.out.println( "Initializing the process..." );
         String libreria_opencv = "/usr/local/share/OpenCV/java/libopencv_java2413.so";
         System.load(libreria_opencv);
-        //System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
-        
-        /*
-        larex.dataManagement.Page conversion_pagina = new larex.dataManagement.Page("/home/lyonel/data/muestra.png");
-        conversion_pagina.initPage();
-        Size pagesize = conversion_pagina.getOriginal().size();
-        
-        Parameters parameters = new Parameters(new RegionManager(), (int) pagesize.height);
-        Segmenter segmenter = new Segmenter(parameters);
-        
-        SegmentationResult segmentationResult = segmenter.segment(conversion_pagina.getOriginal());
-        conversion_pagina.setSegmentationResult(segmentationResult);
-
-        System.out.println( "He segmentado mi primer png" );
-        
-        Document document = PageXMLWriter.getPageXML(segmentationResult, "temporal", (int) pagesize.width, (int) pagesize.height, "2018-03-19");
-        PageXMLWriter.saveDocument(document,"muestra.png","/home/lyonel/data/");
-        */
-        
         
         final File folder = new File("/home/lyonel/Dropbox/LLEIDA/BBVA/system/downloadPDF/");
-        //final File folder = new File("/home/lyonel/data/");
+        //This method walk through the directory described in the folder variable.
         listFilesForFolder(folder);
         
     }
