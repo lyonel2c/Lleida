@@ -1,0 +1,10 @@
+{
+"local_root_directory":"/home/intro",
+"remote_root_directory":"/home/FTP",
+"ftp_server":"x.x.x.x",
+"ftp_server_bck":"x.x.x.x",
+"user": "lyonel",
+"password": "fsdplk08",
+"dir_outcome":"outcome"
+}
+
