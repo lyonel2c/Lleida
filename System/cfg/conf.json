@@ -5,6 +5,7 @@
 "ftp_server_bck":"x.x.x.x",
 "user": "lyonel",
 "password": "fsdplk08",
-"dir_outcome":"outcome"
+"dir_outcome":"outcome",
+"segmentation_source":"/root/system/downloadPDF/"
 }
 
